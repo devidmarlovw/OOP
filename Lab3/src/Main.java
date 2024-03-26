@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 public class Main {
     private static final ExecutorService executorService = Executors.newFixedThreadPool(2);
-    private static final FolderSnapshot folderSnapshot = new FolderSnapshot("C:/Users/Denis/IdeaProjects/Lab3/MyFiles");
+    private static final FolderSnapshot folderSnapshot = new FolderSnapshot("C:/Users/David/IdeaProjects/Lab3/MyFiles");
 
     public static void main(String[] args) {
         // Start the scheduled detection thread
